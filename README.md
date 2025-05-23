@@ -227,6 +227,81 @@ git commit -m "Add new feature - May 23, 2025, 10:59 PM IST"
 git push origin feature/new-feature
 ```
 
+## 📸 Application Snapshots
+
+### 1. 🏠 Home Page
+![Home Page](screenshots/homepage.png)
+*The landing page of the app where users can browse the latest books and featured content.*
+
+---
+
+### 2. 📚 Book List
+![Book List](screenshots/booklist.png)
+*Displays a catalog of all available books with basic info like title, author, and rating.*
+
+---
+
+### 3. 🔍 Book Details
+![Book Details](screenshots/bookdetails.png)
+*Shows a single book's full details along with user reviews and rating submission.*
+
+---
+
+### 4. ✍️ Review Form
+![Review Form](screenshots/reviewform.png)
+*Logged-in users can write and submit a review with a star rating.*
+
+---
+
+### 5. 🔐 Login Page
+![Login Page](screenshots/login.png)
+*User login screen where registered users can access their accounts.*
+
+---
+
+### 6. 🆕 Register Page
+![Register Page](screenshots/register.png)
+*Allows new users to create an account by providing email and password.*
+
+---
+
+### 7. 👤 User Profile
+![User Profile](screenshots/profile.png)
+*Displays user information, written reviews, and profile settings.*
+
+---
+
+### 8. ➕ Add Book (Admin)
+![Add Book](screenshots/addbook.png)
+*Admin-only interface to add new books to the platform.*
+
+---
+
+### 9. 🛠 Admin Login
+![Admin Login](screenshots/admin-login.png)
+*Admins authenticate to access administrative features.*
+
+---
+
+### 10. 🧾 Review Submission Confirmation
+![Review Confirmation](screenshots/review-success.png)
+*Confirmation message shown after a user successfully submits a review.*
+
+---
+
+### 11. ⚠️ Invalid Login
+![Invalid Login](screenshots/invalid-login.png)
+*Error message displayed when login credentials are incorrect.*
+
+---
+
+### 12. 📱 Responsive View
+![Responsive View](screenshots/responsive.png)
+*Mobile-friendly layout showcasing responsive design on smaller screens.*
+
+---
+
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
