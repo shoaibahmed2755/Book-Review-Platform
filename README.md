@@ -4,7 +4,7 @@
 
 The Book Review Platform is a full-stack web application designed to allow users to browse books, read and write reviews, rate books, and manage their profiles. It features a React frontend for a dynamic user interface, a Node.js/Express backend for API functionality, and MongoDB as the database for storing users, books, and reviews. The platform includes admin functionality to add books, secured with JWT-based authentication. This project was developed as part of a Full Stack Developer assignment, completed on **May 23, 2025, at 10:59 PM IST**.
 
-## Key Features
+## What are the features?
 
 * **Book Catalog**: Browse a list of books with details like title and author.
 * **Reviews and Ratings**: Users can read, write, and rate reviews for books.
