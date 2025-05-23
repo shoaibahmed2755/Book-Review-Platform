@@ -229,75 +229,77 @@ git push origin feature/new-feature
 
 ## 📸 Application Snapshots
 
-### 1. 🏠 Home Page
-![Home Page](screenshots/homepage.png)
-*The landing page of the app where users can browse the latest books and featured content.*
+### 1. 🗃️ BRP Database Overview
+![BRP Database](screenshots/BRP%20Database.png)  
+*Structure of the MongoDB database showing collections for users, books, and reviews.*
 
 ---
 
-### 2. 📚 Book List
-![Book List](screenshots/booklist.png)
-*Displays a catalog of all available books with basic info like title, author, and rating.*
+### 2. 🔐 Bearer Token Generation
+![Bearer Token Generation](screenshots/Bearer%20Token%20Generation.png)  
+*Successful login response showing the generated JWT token for user authentication.*
 
 ---
 
-### 3. 🔍 Book Details
-![Book Details](screenshots/bookdetails.png)
-*Shows a single book's full details along with user reviews and rating submission.*
+### 3. 🔑 Bearer Token in Authorization Header
+![Bearer Token Insertion](screenshots/Bearer%20token%20insertion%20to%20autho.png)  
+*Token inserted into the Authorization header for secure API requests.*
 
 ---
 
-### 4. ✍️ Review Form
-![Review Form](screenshots/reviewform.png)
-*Logged-in users can write and submit a review with a star rating.*
+### 4. 📊 Book Review Dashboard
+![Book Review Dashboard](screenshots/Book%20Review%20Dashboard.png)  
+*Main dashboard showcasing books, ratings, and user interactions.*
 
 ---
 
-### 5. 🔐 Login Page
-![Login Page](screenshots/login.png)
-*User login screen where registered users can access their accounts.*
+### 5. 📚 Books in Database
+![Books in DB](screenshots/Books%20in%20DB.png)  
+*Snapshot of books collection in MongoDB, displaying preloaded classic titles.*
 
 ---
 
-### 6. 🆕 Register Page
-![Register Page](screenshots/register.png)
-*Allows new users to create an account by providing email and password.*
+### 6. 💻 React Client Structure
+![Client](screenshots/Client.png)  
+*Project structure of the React frontend application inside the client folder.*
 
 ---
 
-### 7. 👤 User Profile
-![User Profile](screenshots/profile.png)
-*Displays user information, written reviews, and profile settings.*
+### 7. ✍️ Giving a Book Review
+![Giving Review](screenshots/Giving%20review.png)  
+*User interface for submitting a book review and rating.*
 
 ---
 
-### 8. ➕ Add Book (Admin)
-![Add Book](screenshots/addbook.png)
-*Admin-only interface to add new books to the platform.*
+### 8. 🗒️ Reviews in Database
+![Reviews in DB](screenshots/Reviews%20in%20DB.png)  
+*MongoDB document showing how submitted reviews are stored.*
 
 ---
 
-### 9. 🛠 Admin Login
-![Admin Login](screenshots/admin-login.png)
-*Admins authenticate to access administrative features.*
+### 9. 🌐 Node.js Server Setup
+![Server](screenshots/Server.png)  
+*Project structure of the Node.js backend, showing routes, models, and config files.*
 
 ---
 
-### 10. 🧾 Review Submission Confirmation
-![Review Confirmation](screenshots/review-success.png)
-*Confirmation message shown after a user successfully submits a review.*
+### 10. 📬 View Books via Postman API
+![View Books using Postman](screenshots/View%20books%20using%20postman%20api.png)  
+*Postman request displaying all books retrieved from the backend API.*
 
 ---
 
-### 11. ⚠️ Invalid Login
-![Invalid Login](screenshots/invalid-login.png)
-*Error message displayed when login credentials are incorrect.*
+### 11. ➕ Add New Book via Postman
+![Add Book using Postman](screenshots/add%20new%20book%20using%20postman.png)  
+*Admin API call in Postman for adding a new book to the database.*
 
 ---
 
-### 12. 📱 Responsive View
-![Responsive View](screenshots/responsive.png)
-*Mobile-friendly layout showcasing responsive design on smaller screens.*
+### 12. ✅ Review Submission Success
+![After Giving Review](screenshots/after%20giving%20review.png)  
+*Book detail page updated with the newly submitted review and rating.*
+
+---
 
 ---
 
