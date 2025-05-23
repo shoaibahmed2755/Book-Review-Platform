@@ -6,13 +6,15 @@ const router = express.Router();
 
 router.post("/register", async (req, res) => {
   try {
-    const { email, password } = req.body;
-    const hashedPassword = await bcrypt.hash(password, 10);
-    const user = new User({ email, password: hashedPassword });
+    const existingUser = await User.findOne({ email: req.body.email });
+    if (existingUser)
+      return res.status(400).send("Registration failed: Email already exists");
+    const user = new User(req.body);
     await user.save();
     res.status(201).send("User registered");
   } catch (err) {
-    res.status(400).send("Registration failed");
+    console.error("Registration error:", err.message); // Log error
+    res.status(400).send("Registration failed: " + err.message); // Return specific error
   }
 });
 
